@@ -1,3 +1,6 @@
+from re_scan import Scanner
+
+
 scanner = Scanner([
     ('bold', '\*\*'),
     ('link_special', '\[\[(?P<target>.*?)\|(?P<text>.*?)\]\]'),

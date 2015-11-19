@@ -1,3 +1,5 @@
+from re_scan import Scanner
+
 scanner = Scanner([
     ('whitespace', r'\s+'),
     ('plus', r'\+'),
